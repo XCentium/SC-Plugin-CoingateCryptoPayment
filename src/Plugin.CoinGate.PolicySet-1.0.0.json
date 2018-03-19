@@ -1,0 +1,19 @@
+﻿{
+	"$type": "Sitecore.Commerce.Core.PolicySet, Sitecore.Commerce.Core",
+	"Id": "Entity-PolicySet-CoinGatePolicySet",
+	"Version": 1,
+	"IsPersisted": false,
+	"Name": "CoinGatePolicySet",
+	"Policies": {
+				"$type": "System.Collections.Generic.List`1[[Sitecore.Commerce.Core.Policy, Sitecore.Commerce.Core]], mscorlib",
+				"$values": [
+										{
+											"$type": "Sitecore.Commerce.XC.Plugin.CoinGateCryptoPayment.Policies.CoinGatePolicy, Sitecore.Commerce.XC.Plugin.CoinGateCryptoPayment",
+											"CoinGateUrl": "https://api-sandbox.coingate.com",
+											"AccessKey": "3pEMPgvsNCjeKDnqHWGit2",
+											"SecretKey": "EyJl0z5wK3bd2LsmqkSFZCtUDVQvf78j",
+											"AppId": "1388"
+										}
+									]
+							}
+}
