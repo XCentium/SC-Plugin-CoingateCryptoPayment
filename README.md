@@ -5,7 +5,7 @@
         "$type": "Sitecore.Commerce.Core.PolicySetPolicy, Sitecore.Commerce.Core",
         "PolicySetId": "Entity-PolicySet-CoinGatePolicySet"
       },
-3. Modify the file 'Plugin.CoinGate.PolicySet-1.0.0.json'. Add you coin gate environment details
+3. Modify the file 'Plugin.CoinGate.PolicySet-1.0.0.json'. Place it in the folder '...\wwwroot\data\Environments' 
 4. Re-bootstrap
 5. Once deployed, you will have the following apis available:
 PUT {{ServiceHost}}/{{ShopsApi}}/AddCoinGatePayment() - Set the payment type to Crypto. Adds a component to Cart to save details returned from CoinGate
@@ -26,7 +26,7 @@ Sample Body for AddCoinGatePayment
     "successUrl": "https://sxa.storefront.com/bitcoinsuccess",
     "cancelUrl" : "https://sxa.storefront.com/checkout/delivery",
     "callbackUrl" : "https://sxa.storefront.com/checkout/delivery",
-    "email":"kautilya.prasad@gmail.com"
+    "email":"k.p@gmail.com"
 }
 
 
